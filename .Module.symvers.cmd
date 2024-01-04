@@ -1,0 +1,1 @@
+cmd_/home/xerolyskinner/home/Linux-dev-template/Module.symvers :=  sed 's/ko$$/o/'  /home/xerolyskinner/home/Linux-dev-template/modules.order | scripts/mod/modpost -m     -o /home/xerolyskinner/home/Linux-dev-template/Module.symvers -e -i Module.symvers -T - 

@@ -1,0 +1,1 @@
+cmd_/home/xerolyskinner/home/Linux-dev-template/xerdev.mod := printf '%s\n'   xerdev.o | awk '!x[$$0]++ { print("/home/xerolyskinner/home/Linux-dev-template/"$$0) }' > /home/xerolyskinner/home/Linux-dev-template/xerdev.mod
